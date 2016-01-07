@@ -258,12 +258,11 @@ Full-Width Styles
 
 #downloads {
   position: absolute;
-  width: 210px;
+  width: 800px;
   z-index: 10;
   bottom: -40px;
   right: 0;
   height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
 }
 
 .zip_download_link {
@@ -276,23 +275,25 @@ Full-Width Styles
   background: url(../images/sprite_download.png) no-repeat bottom left;
 }
 
-.tar_download_link {
+.play_badge {
   display: block;
   float: right;
-  width: 90px;
-  height:70px;
+  width: 185px;
+  height: 60px;
   text-indent: -5000px;
   overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom right;
-  margin-left: 10px;
+}
+
+.ios_badge {
+  display: block;
+  float: right;
+  text-indent: -5000px;
+  overflow: hidden;
+  height: 60px;
 }
 
 .zip_download_link:hover {
   background: url(../images/sprite_download.png) no-repeat top left;
-}
-
-.tar_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top right;
 }
 
 #main_content_wrap {
